@@ -6,7 +6,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'qualys/version'
 
 Gem::Specification.new do |s|
-  s.name        = 'qualys'
+  s.name        = 'ruby-qualys'
   s.version     = Qualys::VERSION
   s.date        = '2017-12-17'
   s.summary     = 'qualys API Client'
